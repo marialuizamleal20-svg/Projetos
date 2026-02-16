@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrbanVibe | Loja de Roupas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrapper">
+      <a class="brand" href="#inicio">UrbanVibe</a>
+      <nav class="nav-links">
+        <a href="#colecao">Coleção</a>
+        <a href="#destaques">Destaques</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <button class="btn btn-outline">Entrar</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="tag">Nova coleção 2026</p>
+          <h1>Estilo urbano com conforto para todos os dias.</h1>
+          <p class="subtitle">
+            Descubra peças modernas, sustentáveis e pensadas para destacar sua personalidade.
+          </p>
+          <div class="hero-actions">
+            <a class="btn" href="#colecao">Comprar agora</a>
+            <a class="btn btn-ghost" href="#destaques">Ver tendências</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Oferta da semana</h3>
+          <p>Até <strong>40% OFF</strong> em jaquetas e moletons selecionados.</p>
+          <a href="#colecao">Aproveitar desconto</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="colecao" class="section">
+      <div class="container">
+        <h2>Coleção em destaque</h2>
+        <p class="section-subtitle">Escolha seus favoritos e monte looks completos.</p>
+        <div class="products-grid">
+          <article class="product-card">
+            <span class="badge">Mais vendido</span>
+            <h3>Jaqueta Street Classic</h3>
+            <p>Tecido resistente com corte contemporâneo.</p>
+            <div class="price-row">
+              <strong>R$ 249,90</strong>
+              <button class="btn btn-small">Adicionar</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <span class="badge">Novo</span>
+            <h3>Calça Cargo Flex</h3>
+            <p>Modelagem confortável para o dia a dia.</p>
+            <div class="price-row">
+              <strong>R$ 179,90</strong>
+              <button class="btn btn-small">Adicionar</button>
+            </div>
+          </article>
+          <article class="product-card">
+            <span class="badge">Sustentável</span>
+            <h3>Camiseta Eco Basic</h3>
+            <p>Algodão orgânico com toque macio.</p>
+            <div class="price-row">
+              <strong>R$ 89,90</strong>
+              <button class="btn btn-small">Adicionar</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="destaques" class="section alt-bg">
+      <div class="container highlights-grid">
+        <article>
+          <h3>Frete grátis</h3>
+          <p>Nas compras acima de R$ 199 para todo o Brasil.</p>
+        </article>
+        <article>
+          <h3>Troca facilitada</h3>
+          <p>Primeira troca grátis em até 30 dias após a entrega.</p>
+        </article>
+        <article>
+          <h3>Pagamento seguro</h3>
+          <p>Parcelamento em até 6x sem juros nos cartões.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="depoimentos" class="section">
+      <div class="container">
+        <h2>Quem compra, recomenda</h2>
+        <div class="testimonial" id="testimonial-box">
+          <p id="testimonial-text">“Qualidade incrível e entrega super rápida. A UrbanVibe virou minha loja favorita!”</p>
+          <span id="testimonial-author">— Mariana, São Paulo</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section alt-bg">
+      <div class="container contact-grid">
+        <div>
+          <h2>Receba novidades e promoções</h2>
+          <p>Assine nossa newsletter e ganhe 10% OFF na primeira compra.</p>
+        </div>
+        <form class="newsletter-form">
+          <label for="email" class="sr-only">E-mail</label>
+          <input id="email" type="email" placeholder="Digite seu e-mail" required>
+          <button type="submit" class="btn">Assinar</button>
+          <small id="form-message" aria-live="polite"></small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 UrbanVibe. Todos os direitos reservados.</p>
+      <a href="#inicio">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
